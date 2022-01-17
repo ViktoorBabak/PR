@@ -2,7 +2,6 @@
 	$status = $_SESSION["status"];
 	$lenTrash = count($_SESSION["trash"]);
 	$trash = $lenTrash != 0 ? "Корзина - $lenTrash товар" : "Корзина";
-	//var_dump($status);
 ?>
 <header>
 	<h1><a href="/">Мир книг</a></h1>
